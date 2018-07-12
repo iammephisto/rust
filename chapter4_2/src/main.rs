@@ -1,11 +1,10 @@
 fn main() {
-    let s1 = String::from("hello");
-
-    let len = calculate_length(&s1);
-
-    println!("The length of '{}' is {}", s1, len);
+    let s2 = change();
+    println!("The value of s2 is: {}", s2);
 }
 
-fn calculate_length(s: &String) -> usize {
-    s.len()
+fn change() -> String {
+    let mut result = String::from("hello");
+    result.push_str(", world");
+    result
 }
