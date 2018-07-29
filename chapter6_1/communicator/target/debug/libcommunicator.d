@@ -1,0 +1,1 @@
+/home/mephisto/projects/chapter6_1/communicator/target/debug/libcommunicator.rlib: /home/mephisto/projects/chapter6_1/communicator/src/client.rs /home/mephisto/projects/chapter6_1/communicator/src/lib.rs /home/mephisto/projects/chapter6_1/communicator/src/network/mod.rs /home/mephisto/projects/chapter6_1/communicator/src/network/server.rs
