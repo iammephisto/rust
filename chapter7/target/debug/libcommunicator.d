@@ -1,1 +1,1 @@
-/home/mephisto/projects/chapter7/target/debug/libcommunicator.rlib: /home/mephisto/projects/chapter7/src/client.rs /home/mephisto/projects/chapter7/src/lib.rs /home/mephisto/projects/chapter7/src/network/mod.rs /home/mephisto/projects/chapter7/src/network/server.rs
+/mnt/c/projects/chapter7/target/debug/libcommunicator.rlib: /mnt/c/projects/chapter7/src/client.rs /mnt/c/projects/chapter7/src/lib.rs /mnt/c/projects/chapter7/src/network/mod.rs /mnt/c/projects/chapter7/src/network/server.rs
