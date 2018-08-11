@@ -20,6 +20,27 @@ fn main() {
 
     let v = vec![100, 32, 57];
     for i in &v {
-        println!("{}", i);
+        println!("Part 1: {}", i);
     }
+
+    let mut w = vec![12, 24, 36];
+    for i in &mut w {
+        // modify a mutable vector.
+        *i *= 2;
+        println!("Part 2: {}", i);
+    }
+
+    enum SpreadsheetCell {
+        Int(i32),
+        Float(f64),
+        Text(String),
+    }
+
+    let row = vec![
+        SpreadsheetCell::Int(3),
+        SpreadsheetCell::Text(String::from("blue")),
+        SpreadsheetCell::Float(10.12),
+        SpreadsheetCell::Text(String::from("red")),
+    ];
+
 }
